@@ -51,10 +51,12 @@ export default function Home() {
   return (
     <div className='home-container'>
       <div className='nav-container'>
+
         <div className='logo-container'>
           <img class="animate__animated animate__backInLeft" src={logo} alt='logotipo' />
         </div>
-        <div className='tools-container'>
+
+        {/* <div className='tools-container'>
           <div className='social animate__animated animate__backInRight' id="red-contact">
             <div className='red'><MdConnectWithoutContact /></div>
             <div className='red'><GrInstagram /></div>
@@ -69,8 +71,8 @@ export default function Home() {
             <div className='red'><GrMail /></div>
             <div className='red'><FaRobot /></div>
           </div>
+        </div> */}
 
-        </div>
       </div>
       <div className='content-container'>
 
@@ -80,7 +82,7 @@ export default function Home() {
           </div>
           <div className='data-container'>
             <div className='title'>
-              <h2>Logística Ligera</h2>
+              <h2>Logística <br/>Ligera</h2>
             </div>
             <div className='image'>
               <img className='camioneta' src={van} alt='camioneta' />
@@ -88,7 +90,7 @@ export default function Home() {
           </div>
           <div className='sub-title'>
             <p>
-              Entregas PROGRAMADAS en CDMX y León Gto.<br/>
+              Entregas PROGRAMADAS <br/>en CDMX y León Gto.<br/>
               <strong>¡El mismo día!</strong>
             </p>
             <a href="#logistica">+ info</a>
@@ -97,11 +99,11 @@ export default function Home() {
 
         <div className='card animate__animated animate__backInUp' id='card-scooter'>
           <div className='icon'>
-           <img src={scooter} id="scooter" alt='icono-scooter'  Style='width:120px'/>
+           <img src={scooter} id="scooter" alt='icono-scooter' />
           </div>
           <div className='data-container'>
             <div className='title'>
-              <h2>Logística On Demand</h2>
+              <h2>Logística <br/>On Demand</h2>
             </div>
             <div className='image'>
               <img className='moto' src={moto} alt='camioneta' />
@@ -110,6 +112,7 @@ export default function Home() {
           <div className='sub-title'>
             <p>
               Entregas en León Gto.<br/>
+              rápido y sencillo.<br/> 
               <strong>¡Solicita en el momento!</strong>
             </p>
             <a href="#logisticaOn">+ info</a>
@@ -118,11 +121,11 @@ export default function Home() {
 
         <div className='card animate__animated animate__backInUp' id='card-heli'>
           <div className='icon'>
-           <img src={helicoptero} id="helicoptero" alt='icono-helicoptero' Style='width:180px'/>
+           <img src={helicoptero} id="helicoptero" alt='icono-helicoptero' />
           </div>
           <div className='data-container'>
             <div className='title'>
-              <h2>Logística Same Day</h2>
+              <h2>Logística <br/>Same Day</h2>
             </div>
             <div className='image'>
               <img className='repartidor' src={repartidor} alt='camioneta' />
@@ -131,6 +134,7 @@ export default function Home() {
           <div className='sub-title'>
             <p>
               Entregas CDMX y León Gto.<br/>
+              sin contratiempos.<br/>
               <strong>¡El mismo día!</strong>
             </p>
             <a href="#logisticaSame">+ info</a>

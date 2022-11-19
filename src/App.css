@@ -5,6 +5,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body{
+  overflow: hidden;
+}
+
 a{
   text-decoration: none;
 }
