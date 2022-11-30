@@ -9,7 +9,7 @@ export default function Logistica() {
     <div className='logistica-container' id="logistica">
 
       <div className='logistica-nav'>
-        <img class="animate__animated animate__backInLeft" src={logo} alt='logotipo' />
+      <a href='/'><img class="animate__animated animate__backInLeft" src={logo} alt='logotipo' /></a>
       </div>
 
       <div className='logistica-content'>
@@ -32,7 +32,7 @@ export default function Logistica() {
       </div>
 
       <div className='logistica-footer'>
-        <img className="logo-xs animate__animated animate__backInRight" src={logoBco} alt='logotipo chico' />
+        <a href='/'><img className="logo-xs animate__animated animate__backInRight" src={logoBco} alt='logotipo chico' /></a>
       </div>
 
     </div>

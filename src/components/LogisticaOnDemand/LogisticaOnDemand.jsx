@@ -9,12 +9,12 @@ export default function LogisticaOnDemand() {
     <div className='logistica-on-demand-container' id='logisticaOn'>
 
       <div className='logistica-on-demand-nav'>
-        <img class="animate__animated animate__backInLeft" src={logo} alt='logotipo' />
+        <a href='/'><img class="animate__animated animate__backInLeft" src={logo} alt='logotipo' /></a>
       </div>
 
       <div className='logistica-on-demand-content'>
         <div className='car'>
-          <img className='camioneta' src={moto} alt='camioneta' />
+          <img src={moto} alt='moto' />
         </div>
         <div className='text'>
           <h1>LEÓN</h1>
@@ -31,7 +31,7 @@ export default function LogisticaOnDemand() {
       </div>
 
       <div className='logistica-on-demand-footer'>
-        <img className="logo-xs animate__animated animate__backInRight" src={logoBco} alt='logotipo chico' />
+        <a href='/'><img className="logo-xs animate__animated animate__backInRight" src={logoBco} alt='logotipo chico' /></a>
       </div>
 
     </div>
