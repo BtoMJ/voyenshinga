@@ -24,7 +24,6 @@ import { Md3P } from "react-icons/md";
 
 import './Home.css';
 
-
 setTimeout(showIn, 550);
 setTimeout(changeClass, 1000);
 
@@ -47,13 +46,27 @@ function changeClass() {
   document.getElementById("card-heli").className = "card";
 }
 
+
+// const container = document.getElementById("content-container");
+
+//   container.addEventListener("wheel", function (e) {
+//     if (e.deltaY > 0) {
+//       container.scrollLeft += 100;
+//       e.preventDefault();
+//     }
+//     else {
+//       container.scrollLeft -= 100;
+//       e.preventDefault();
+//     }
+//   });
+
 export default function Home() {
   return (
     <div className='home-container'>
       <div className='nav-container'>
 
         <div className='logo-container'>
-          <img class="animate__animated animate__backInLeft" src={logo} alt='logotipo' />
+          <img className="animate__animated animate__backInLeft" src={logo} alt='logotipo' />
         </div>
 
         {/* <div className='tools-container'>
@@ -74,7 +87,7 @@ export default function Home() {
         </div> */}
 
       </div>
-      <div className='content-container'>
+      <div id='content-container' className='content-container'>
 
         <div className='card animate__animated animate__backInUp' id='card-camioneta'>
           <div className='icon'>
