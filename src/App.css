@@ -18,8 +18,10 @@ a:hover{
 }
 
 .App {
-  /* overflow: hidden; */
+  /* width: 100vw;
+  height: 100vh; */
   text-align: center;
+  overflow: hidden;
 }
 
 @keyframes spin {
