@@ -127,4 +127,106 @@
 
 @media (max-width: 600px){
 
+    .same-day-container{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-image: url(../../assets/bck3.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .same-day-nav{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .same-day-nav img{
+        height: 7vh;
+    }
+
+    .same-day-content{
+        width: 80%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .same-day-content .car{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .same-day-content .car img{
+        height: 200px;
+    }
+    
+    .same-day-content .text{ 
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .same-day-content .text h1{
+        font-size: 5rem;
+        text-align: center;
+        font-weight: bold;
+        color: #4f5c0d;
+        letter-spacing: -0.5rem;
+    } 
+
+    .same-day-content .text p{
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #000;
+    }
+
+    .same-day-ribbon-container{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .same-day-ribbon{
+        width: 98%;
+        height: 55%;
+        font-size: 1rem;
+        color: #fff;
+        padding: 0 0 0 10vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: rgb(46,54,7);
+        background: -moz-linear-gradient(90deg, rgba(81, 95, 8, 0.9) 0%, rgba(79,92,13,1) 60%);
+        background: -webkit-linear-gradient(90deg, rgba(81, 95, 8, 0.9) 0%, rgba(79,92,13,1) 60%);
+        background: linear-gradient(90deg, rgba(81, 95, 8, 0.9) 0%, rgba(79,92,13,0.4) 60%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#515f08e6",endColorstr="#4f5c0d",GradientType=1);
+    }
+
+    .same-day-footer{
+        display: none;
+    }
+    
+
 }

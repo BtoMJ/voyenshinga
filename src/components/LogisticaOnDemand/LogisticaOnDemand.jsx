@@ -24,7 +24,7 @@ export default function LogisticaOnDemand() {
       </div>
 
       <div className='logistica-on-demand-ribbon-container'>
-        <div className='logistica-ribbon'>
+        <div className='logistica-on-demand-ribbon'>
           <h1>Logística On Demand</h1>
         </div>
 

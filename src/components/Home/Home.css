@@ -265,7 +265,7 @@
 
 
 /* @media only screen and (max-width:600px){ */
-@media only screen and (max-width:414px){
+@media (max-width:414px){
     
     .home-container{
         width: 100vw;
@@ -374,9 +374,10 @@
         width: 95vw;
         height: 87vh;
         padding: 25px 0 17px 10px;
-        /* overflow: auto; */
+        overflow: auto;
         white-space: nowrap;
         display: inline-block;
+        justify-content: space-between;
         /* overflow-y: hidden;  */
         /* scroll-snap-type: y mandatory; */
         /* margin-bottom: -10px; */
@@ -407,6 +408,7 @@
         justify-content: space-around;
         transition: all 0.5s ease;
         display: inline-block;
+        padding: 0 0 10px 0;
         /* border: 1px transparent; */
         /* float: left; */
         /* clear: both; */
