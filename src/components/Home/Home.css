@@ -14,6 +14,7 @@
     .nav-container{
         width: 100%;
         height: 120px;
+        padding: 20px 0;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -27,86 +28,12 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        /* border: thin dotted #00f; */
     }
     
     .logo-container img{
         height: 70px;
     }
     
-    .tools-container{
-        width: 20%;
-        height: 100%;
-        padding: 10px 0;
-        display: flex;
-        flex-direction: column;
-        align-items:flex-end;
-        justify-content: space-around;
-        /* border: thin dotted #0f0; */
-    }
-
-    .social{
-        width: 80%;
-        height: 40px;
-        padding: 0 20px;
-        margin-right: -265px;
-        margin-bottom: 5px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        border-radius: 10px 0 0 10px;
-        background-color: #000;
-        transition: 0.4s all ease-in;
-    }
-    
-    .social:hover, .contact:hover{
-        cursor: pointer;
-        margin-right: 0;
-    }
-    
-    .social .red, .contact .red{
-        font-size: 1.3rem;
-        padding: 0 5px;
-        color: #fff;
-        line-height: 5px;
-        transition: 0.5s all;
-    }
-    
-    /* .social .red:hover{
-        color: #839620;
-    }
-
-    .contact .red:hover{
-        color: #000;
-    } */
-    
-    .social .red2{
-        font-size: 1.2rem;
-        padding: 0 10px;
-        color: #fff;
-        transition: 0.5s all;
-    }
-    
-    .red:hover, .red3:hover{
-        cursor: pointer;
-        /* transform:scale(1.3); */
-    }
-    
-    .contact{
-        width: 45%;
-        height: 40px;
-        padding: 0 25px;
-        margin-right: -131px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        border-radius: 10px 0 0 10px;
-        background-color: #839620;
-        transition: 0.4s all ease-in;
-    }
-
     .content-container{
         width: 95%;
         height: 900px;
@@ -303,71 +230,6 @@
     
     .logo-container img{
         height: 40px;
-    }
-    
-    .tools-container{
-        width: 100%;
-        height: 60px;
-        padding: 10px 0;
-        margin-top: 40px;
-        position: absolute;
-        top: -20px;
-        display: flex;
-        flex-direction: column;
-        align-items:flex-end;
-        justify-content: space-around;
-        z-index: 1000;
-        /* border: thin dotted #0f0; */
-    }
-    
-    .social{
-        width: 70vw;
-        height: 70px;
-        padding: 5px 5px;
-        margin-right: -217px;
-        margin-bottom: 5px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        border-radius: 5px 0 0 5px;
-        background-color: #000;
-        transition: 0.4s all ease-in;
-    }
-    
-    .social:hover, .contact:hover{
-        cursor: pointer;
-        margin-right: 0;
-        box-shadow: 0 5px 60px 0 rgba(0,0,0,0.2);
-    }
-
-    .social .red, .contact .red{
-        font-size: 1rem;
-        padding: 0 5px;
-        color: #fff;
-        line-height: 5px;
-        transition: 0.5s all;
-    }
-
-    .social .red2{
-        font-size: 1rem;
-        padding: 0 5px;
-        color: #fff;
-        transition: 0.5s all;
-    }
-
-    .contact{
-        width: 45vw;
-        height: 70px;
-        padding: 5px 5px;
-        margin-right: -128px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        border-radius: 5px 0 0 5px;
-        background-color: #839620;
-        transition: 0.4s all ease-in;
     }
     
     .content-container{

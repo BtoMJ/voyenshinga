@@ -6,15 +6,19 @@ import LogisticaOnDemand from './components/LogisticaOnDemand/LogisticaOnDemand'
 import Contact from './components/Contact/Contact';
 
 import 'animate.css';
+import Nav from './components/Nav/Nav';
 
 function App() {
   return (
     <div className="App">
-        <Home />
-        <Logistica />
-        <SameDay />
-        <LogisticaOnDemand />
-        <Contact />
+      <div className='NavContainer'>
+        <Nav />
+      </div>
+      <Home />
+      <Logistica />
+      <SameDay />
+      <LogisticaOnDemand />
+      <Contact />
     </div>
   );
 }
